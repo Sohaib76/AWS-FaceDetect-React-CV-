@@ -1,0 +1,34 @@
+created bucket  sohaib-bucket-test
+https://s3.console.aws.amazon.com/s3/buckets/sohaib-bucket-test?region=eu-west-2&tab=objects
+
+Lambda function sohaib-s3upload-lambda
+https://eu-west-2.console.aws.amazon.com/lambda/home?region=eu-west-2#/functions/sohaib-s3upload-lambda?tab=permissions
+2, sohaib-face-recognition
+
+SohaibTestApi > Resources (Mine)
+> test2
+Stage name v1
+https://eu-west-2.console.aws.amazon.com/apigateway/home?region=eu-west-2#/apis/281ku6845d/stages/v1
+
+Role: sohaib-s3upload-lambda-role-8mrxqscn 
+Used: Lamda rekognition
+-------------------
+
+lambda function permissions Allow.putObject
+------------------
+
+sohaib-Role
+sohaib-Resource-s3Image
+
+
+---------------
+Total Run rekognition
+
+detect-faces
+failed 4
+Right 1
+
+compare-faces
+failed 10 + 3
+Right 5
+
